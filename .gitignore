@@ -1,1 +1,6 @@
 node_modules/
+
+css/bootstrap*
+js/bootstrap*
+js/popper*
+js/jquery*
