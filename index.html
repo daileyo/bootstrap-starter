@@ -4,19 +4,38 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type='css/text' src="css/bootstrap.css"></script>
-        <script type='js' src='js/bootstrap.js'></script>
-        <script type='js' src='js/jquery.js'></script>
-        <script type='js' src='js/popper.js'></script>
+        <link rel="stylesheet" type='text/css' href="css/bootstrap.css">
+        <link rel="stylesheet" type='text/css' href="css/main.css">
 
-        <script type='js' src='js/index.js'></script>
+        <script type='application/javascript' src='js/jquery.js'></script>
+        <script type='application/javascript' src='js/popper.js'></script>        
+        <script type='application/javascript' src='js/bootstrap.js'></script>
+
+        <script type='application/javascript' src='js/index.js'></script>
     </head>
     <title>Bootstrap Starter</title>
     <body>
-        
-    <div class="row">
-        <div class="col-sm-4">.col-sm-4</div>
-        <div class="col-sm-8">.col-sm-8</div>
-    </div>  
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">Home</a>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-4">
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="about" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-value="projects" href="#">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="page header">
+            <div class="page overlay">
+                <div class="container">
+                    <div class="description">
+                        <h1>Hi there.</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
     </body>
 </html>
