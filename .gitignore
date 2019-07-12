@@ -1,5 +1,6 @@
 node_modules/
-
+*-old*
+*.bk
 css/bootstrap*
 js/bootstrap*
 js/popper*
