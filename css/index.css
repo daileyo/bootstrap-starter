@@ -6,10 +6,10 @@
 .navbar-brand       { color:            darkgreen; }
 .navbar-collapse    { justify-content:  flex-end; }
 /*end navgar*/
-.body       {   background-color: darkslateblue; }
-.container  {   background-color: darkslategray; }
-.page       {   background-color: darkslategray; }
-
+.body        {   background-color: darkslateblue; }
+.container   {   background-color: darkslategray; }
+.page        {   background-color: darkslategray; }
+.description {   border-left: 4px solid darkolivegreen; }
 h1, h3      {   color:            darkolivegreen; }
 h2, h5      {   color:            darkolivegreen; text-align: center; }
 p           {   color:            green; padding-left: 2em; }
@@ -27,18 +27,15 @@ p           {   color:            green; padding-left: 2em; }
 /*end header*/
 
 /*about*/
-.about-img-left { position: relative; }
-.about-desc {
-    border-left: 4px solid darkolivegreen;
-    height: 100%;
-}
 .about-img-main {
-    background-image: url('../images/header-bg.png');
     border-radius: 50%;
     border-left: 4px solid darkolivegreen;
 }
-.about-highlights {
-    height: auto;
-    background-color: slategray;
-}
+.about-highlights { background-color: slategray; }
 /*end about*/
+
+/*projects*/
+.projects-selector { background-color: slategray; }
+/*end projects*/
+
+.debug { visibility: hidden; }
