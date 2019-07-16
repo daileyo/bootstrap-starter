@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "npm install",
     "postinstall": "cp ./node_modules/bootstrap/dist/css/bootstrap.css ./css/ && cp ./node_modules/bootstrap/dist/js/bootstrap.js ./js/ && cp ./node_modules/jquery/dist/jquery.js ./js/ && cp ./node_modules/popper.js/dist/popper.js ./js/",
-    "start": "simplehttpserver -a localhost -p 8000 -c-1 .",
+    "start": "serve -l 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,12 +19,12 @@
   "devDependencies": {
     "bootstrap": "^4.3.1",
     "cloudflare": "^2.4.1",
-    "simplehttpserver": "latest",
+    "serve": "latest",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
   },
   "dependencies": {
-    "cpx": "^1.5.0",
+    "copy": "latest",
     "express": "^4.17.1"
   }
 }

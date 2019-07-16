@@ -1,39 +1,25 @@
 /*navbar styling*/
-.navbar { background: grey; }
-.nav-link { margin-right: 1em !important; }
-.navbar-collapse{ justify-content: flex-end; }
-
-/*pages*/
-
-.page {
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    padding: 4em;
-    margin: 0;
+.navbar             {   background:         slategray; }
+.nav-link           {   margin-right:       1em !important; 
+                        color:              darkgreen; 
 }
-
+.navbar-brand       { color:            darkgreen; }
+.navbar-collapse    { justify-content:  flex-end; }
+/*end navgar*/
+.body       {   background-color: darkslateblue; }
+.container  {   background-color: darkslategray; }
+.page       {   background-color: slategray; }
 /*header*/
-.header {
-    position: relative;
-    background-image: url('../images/header-bg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-color: burlywood;
+h1          {   color:            darkolivegreen; }
+.header     {
+                background-image:       url('../images/header-bg.jpg');
+                background-size:        cover;
+                background-position:    center;
+                background-color:       burlywood;
+                color:                  green;
 }
-
-.overlay {
-    position: absolute;
-    opacity: .5;
-    background: lightslategrey;
+.overlay    {
+                opacity:    .5;
+                background: black;
 }
-.description {
-    position: absolute;
-    top: 30%;
-    margin: auto;
-    background: darkslategray;
-}
-
 /*end header*/
