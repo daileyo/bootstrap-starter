@@ -1,41 +1,38 @@
 /*navbar styling*/
-.navbar             {   background:         slategray; }
-.nav-link           {   margin-right:       1em !important; 
-                        color:              darkgreen; 
+.navbar             { background:         slategray; }
+.nav-link           { margin-right:       1em !important; 
+                      color:              darkgreen; 
 }
-.navbar-brand       { color:            darkgreen; }
-.navbar-collapse    { justify-content:  flex-end; }
+.navbar-brand       { color:              darkgreen; }
+.navbar-collapse    { justify-content:    flex-end; }
 /*end navgar*/
-.body        {   background-color: darkslateblue; }
-.container   {   background-color: darkslategray; }
-.page        {   background-color: darkslategray; }
-.description {   border-left: 4px solid darkolivegreen; }
-h1, h3      {   color:            darkolivegreen; }
-h2, h5      {   color:            darkolivegreen; text-align: center; }
-p           {   color:            green; padding-left: 2em; }
+.body               { background-color:   darkslateblue; }
+.container          { background-color:   darkslategray; }
+.page               { background-color:   darkslategray; }
+.description        { border-left:        darkolivegreen 4px solid;  
+                      padding-left:       10px; }
+h1, h3              { color:              darkolivegreen; }
+h2, h5              { color:              darkolivegreen; 
+                      text-align:         center; }
+p                   { color:              green; }
 /*header*/
-.header     {
-                background-image:       url('../images/header-bg.png');
-                background-size:        cover;
-                background-position:    center;
-                background-color:       burlywood;
-}
-.overlay    {
-                opacity:    .5;
-                background: black;
-}
+.header             { background-color:   burlywood;
+                      background-image:    url('../images/header-bg.png');
+                      background-size:     cover;
+                      background-position: center; }
+.overlay            { background:          black;
+                      opacity:              .5; }
 /*end header*/
 
 /*about*/
-.about-img-main {
-    border-radius: 50%;
-    border-left: 4px solid darkolivegreen;
-}
-.about-highlights { background-color: slategray; }
+.about-img-main     { border-left:         darkolivegreen 4px solid ;
+                      border-radius:       50%;
+                      padding-left:        10px }
+.about-highlights   { background-color:    slategray; }
 /*end about*/
 
 /*projects*/
-.projects-selector { background-color: slategray; }
+.projects-selector  { background-color:    slategray; }
 /*end projects*/
 
-.debug { visibility: hidden; }
+.debug              { visibility:           hidden; }
