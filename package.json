@@ -21,7 +21,8 @@
     "cloudflare": "latest",
     "serve": "latest",
     "jquery": "latest",
-    "popper.js": "latest"
+    "popper.js": "latest",
+    "braces": ">=2.3.1"
   },
   "dependencies": {
     "copy": "latest",
