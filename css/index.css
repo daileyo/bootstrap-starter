@@ -26,8 +26,7 @@ p                   { color:              green; }
 
 /*about*/
 .about-img-main     { border-left:         darkolivegreen 4px solid ;
-                      border-radius:       50%;
-                      padding-left:        10px }
+                      border-radius:       50%; }
 .about-highlights   { background-color:    slategray; }
 /*end about*/
 
