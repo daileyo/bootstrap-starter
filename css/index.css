@@ -8,15 +8,17 @@
 /*end navgar*/
 .body       {   background-color: darkslateblue; }
 .container  {   background-color: darkslategray; }
-.page       {   background-color: slategray; }
+.page       {   background-color: darkslategray; }
+
+h1, h3      {   color:            darkolivegreen; }
+h2, h5      {   color:            darkolivegreen; text-align: center; }
+p           {   color:            green; padding-left: 2em; }
 /*header*/
-h1          {   color:            darkolivegreen; }
 .header     {
-                background-image:       url('../images/header-bg.jpg');
+                background-image:       url('../images/header-bg.png');
                 background-size:        cover;
                 background-position:    center;
                 background-color:       burlywood;
-                color:                  green;
 }
 .overlay    {
                 opacity:    .5;
@@ -25,41 +27,18 @@ h1          {   color:            darkolivegreen; }
 /*end header*/
 
 /*about*/
-.about {
-    position: absolute;
-}
+.about-img-left { position: relative; }
 .about-desc {
-    border-left: 4px solid slateblue;
+    border-left: 4px solid darkolivegreen;
     height: 100%;
 }
 .about-img-main {
-    height: 75%;
-    width: 75%;
+    background-image: url('../images/header-bg.png');
     border-radius: 50%;
-    border-left: 4px solid slateblue;
+    border-left: 4px solid darkolivegreen;
 }
 .about-highlights {
-    height: 70%;
-    width: 100%;
-    margin-top: 1em;
-    background-color: lightgray;
-}
-.about span {
-    display: block;
-    color: lightslategray;
-    position: absolute;
-    left: 115px;
-}
-.about h3 {
-    color: slateblue;
-}
-.about h2, h5 {
-    color: slateblue;
-    text-align: center;
-}
-.about p {
-    line-height: 2;
-    color: lightslategray;
-    padding-left: 2em;
+    height: auto;
+    background-color: slategray;
 }
 /*end about*/
