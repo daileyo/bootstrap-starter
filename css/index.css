@@ -23,3 +23,43 @@ h1          {   color:            darkolivegreen; }
                 background: black;
 }
 /*end header*/
+
+/*about*/
+.about {
+    position: absolute;
+}
+.about-desc {
+    border-left: 4px solid slateblue;
+    height: 100%;
+}
+.about-img-main {
+    height: 75%;
+    width: 75%;
+    border-radius: 50%;
+    border-left: 4px solid slateblue;
+}
+.about-highlights {
+    height: 70%;
+    width: 100%;
+    margin-top: 1em;
+    background-color: lightgray;
+}
+.about span {
+    display: block;
+    color: lightslategray;
+    position: absolute;
+    left: 115px;
+}
+.about h3 {
+    color: slateblue;
+}
+.about h2, h5 {
+    color: slateblue;
+    text-align: center;
+}
+.about p {
+    line-height: 2;
+    color: lightslategray;
+    padding-left: 2em;
+}
+/*end about*/
