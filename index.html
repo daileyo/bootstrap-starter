@@ -5,23 +5,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="stylesheet" type='text/css' href="css/bootstrap.css">
+        <link rel="stylesheet" type='text/css' href="css/bootstrap.min.css">
+        <link rel="shortcut icon" href="#">
         <link rel="stylesheet" type='text/css' href="css/index.css">
 
-        <script type='application/javascript' src='js/jquery.js'></script>
-        <script type='application/javascript' src='js/popper.js'></script>        
-        <script type='application/javascript' src='js/bootstrap.js'></script>
+        <script type='application/javascript' src='js/jquery.min.js'></script>
+        <script type='application/javascript' src='js/popper.min.js'></script>        
+        <script type='application/javascript' src='js/bootstrap.min.js'></script>
 
         <script type='application/javascript' src='js/index.js'></script>
     </head>
     <title>Bootstrap Starter</title>
     <body>
         <nav class="navbar navbar-expand-lg fixed-top">
-            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" data-value="home" href="#">Home</a>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav mr-4">
                     <li class="nav-item">
-                        <a class="nav-link" data-value="about" href="#">About</a>
+                        <a class="nav-link" data-value="about" href="about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-value="projects" href="#">Projects</a>
@@ -34,7 +35,7 @@
         </nav>
         <div class="container-fluid">
             <!--Header/Home-->
-            <div class="page header row align-items-center">
+            <div id="home" class="page header row align-items-center">
                 <div class="overlay col-10 mx-auto rounded">
                     <h1>Hi there.</h1>   
                     <p>
