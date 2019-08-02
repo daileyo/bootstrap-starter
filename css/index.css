@@ -5,7 +5,8 @@
 }
 .navbar-brand       { color:              darkgreen; }
 .navbar-collapse    { justify-content:    flex-end; }
-/*end navgar*/
+
+/*end navbar*/
 .body               { background-color:   darkslateblue; }
 .container          { background-color:   darkslategray; }
 .page               { background-color:   darkslategray; }
@@ -15,6 +16,7 @@ h1, h3              { color:              darkolivegreen; }
 h2, h5              { color:              darkolivegreen; 
                       text-align:         center; }
 p                   { color:              green; }
+
 /*header*/
 .header             { background-color:   burlywood;
                       background-image:    url('../images/header-bg.png');
