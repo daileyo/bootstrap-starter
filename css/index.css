@@ -1,29 +1,31 @@
-/*navbar styling*/
-.navbar             { background:         slategray; }
-.nav-link           { margin-right:       1em !important; 
-                      color:              darkgreen; 
-}
-.navbar-brand       { color:              darkgreen; }
-.navbar-collapse    { justify-content:    flex-end; }
-
-/*end navbar*/
 .body               { background-color:   darkslateblue; }
 .container          { background-color:   darkslategray; }
-.page               { background-color:   darkslategray; }
+.page               { background-color:   darkslategray;
+                      padding-top:        65px;}
 .description        { border-left:        darkolivegreen 4px solid;  
                       padding-left:       10px; }
 h1, h3              { color:              darkolivegreen; }
 h2, h5              { color:              darkolivegreen; 
                       text-align:         center; }
 p                   { color:              green; }
+.overlay            { background:          black;
+                      opacity:              .5; }
+
+/*navbar styling*/
+.navbar             { background:         slategray; }
+.nav-link           { margin-right:       1em; 
+                      color:              darkgreen; 
+}
+.navbar-brand       { color:              darkgreen; }
+.navbar-collapse    { justify-content:    flex-end; }
+.navbar-toggler     { background:         darkslategray; }
+/*end navbar*/
 
 /*header*/
 .header             { background-color:   burlywood;
                       background-image:    url('../images/header-bg.png');
                       background-size:     cover;
                       background-position: center; }
-.overlay            { background:          black;
-                      opacity:              .5; }
 /*end header*/
 
 /*about*/
